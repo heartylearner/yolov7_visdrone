@@ -1,0 +1,1 @@
+python train.py --workers 8 --device ${1} --batch-size 1  --data data/VisDrone.yaml --img 1376 1376 --cfg cfg/training/yolov7.yaml --weights '' --name yolov7 --evolve --hyp data/hyp.scratch.p5.yaml --epochs 2
